@@ -35,6 +35,8 @@
 
     <!-- LOAD GOOGLE FONTS -->
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,800,700,600%7CRaleway:100,300,600,700,800" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/libre-baskerville" type="text/css"/>
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
 
     <!-- CSS CUSTOM STYLE -->
     <link rel="stylesheet" type="text/css" href="css/custom.css" media="screen" />
@@ -87,16 +89,16 @@
                     <!--END: MOBILE MENU -->
 
                     <!--NAVIGATION MENU-->
-					<!--Becomes passive or active on the basis if menu button is pressed-->
+					<!--Becomes passive or active on the basis if menu button is presed-->
                     <div class="navigation-wrap">
                         <nav id="mainMenu" class="style-1 main-menu slide-menu">
 						<!--nav-to for smooth transitions-->
                             <ul class="main-menu nav nav-pills">
-                                <li> <a href="#about" class="nav-to">About</a> </li>	
-                                <li> <a href="#catalog" class="nav-to">Product Catalog</a> </li>
-                                <li> <a href="#impact" class="nav-to">Impact</a> </li>
-								<li> <a href="#whoweserve" class="nav-to">Who We Serve</a> </li>
-                                <li> <a href="#contact" class="nav-to">Contact Us</a> </li>
+                                <li> <a class="Lato nav-to" href="#impact" >Our Farms</a> </li>	
+                                <li> <a class="Lato nav-to" href="#catalog" >Product Catalog</a> </li>
+								<li> <a class="Lato nav-to" href="#whoweserve">Who We Serve</a> </li>
+								<li> <a class="Lato nav-to" href="#about">About Avenca</a> </li>
+                                <li> <a class="Lato nav-to" href="#contact">Get in touch</a> </li>
                             </ul>
                         </nav>
                     </div>                            
@@ -108,17 +110,24 @@
         <!-- END: Header -->
 
         <!-- HEADER -->
-        <div id="slider" class="inspiro-slider slider-fullscreen">
-            <!-- Slide 1 -->
-            <div class="slide" style="background-image:url('images/websitehead.jpg');">
+        <!-- INSPIRO SLIDER -->
+        <div id="slider" class="inspiro-slider slider-fullscreen" style="height:100vh;">
+            <!-- START: Slide 1 -->
+            <div class="slide" style="background-color:black;">
                 <div class="container">
-                    <div class="text-center text-light">
+                    <div class="text-left text-light">
                         
-                        <h2 class="heading-class">Pure.Wholesome.Sustainable</h2>
-						<p class="text-center m-b-0 m-t-15 font-wight-400 text-14 text-light para-class">Sed egestas, ante et vulputate volutpat, 
-						eros pede semper est, vitae luctus  metus libero eu augue. Morbi purus libero, 
-						faucibus adipiscing, comm odo quis.
+                        <h2 class="heading-class Baskerville">Pure. Wholesome.<br>Sustainable.</h2>
+						<p class="text-left m-b-0 m-t-15 text-light para-class" style="font-family: 'Lato', sans-serif;font-weight:300">Only the nature's best makes to your plates.
 						</p>
+						
+						<a class="button transparent m-t-40 nav-to p-l-20 p-r-20" href="#catalog">
+						<span style="font-family:'Lato',Sans;">Product Catalog</span>
+						</a>
+						
+						<a class="button red m-t-40 m-l-20 nav-to p-l-45 p-r-45" href="#contact">
+						<span style="font-family:'Lato',Sans;">Get In Touch</span>
+						</a>
                        
                     </div>
                 </div>
@@ -126,70 +135,125 @@
             <!-- END: Slide 1 -->
 
         </div>
+		
+        <!-- END: INSPIRO SLIDER -->
         <!-- END: HEADER -->
-
+		
         <!--ABOUT PAGE: START :GROWN BY AVENCA - TAB 1-->
-		<section id="about">
+		<section id="about" style="height=100vh;">
 		<div class="row">
-			<div class="container">
+			<div class="container containerpadding">
 			  <div class="col-md-12">
-				<h1 class="text-center heading-class">About</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor, vel interdum mi sapien ut justo. Nulla varius consequat magna, id molestie ipsum volutpat quis. Suspendisse consectetur fringilla luctus. Fusce id mi diam, non ornare orci. Pellentesque ipsum erat, facilisis ut venenatis eu, sodales vel dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor, vel interdum mi sapien ut justo. Nulla varius consequat magna, id molestie ipsum volutpat quis. Suspendisse consectetur fringilla luctus. Fusce id mi diam, non ornare orci. Pellentesque ipsum erat, facilisis ut venenatis eu, sodales vel dolor.</p>
-				<hr>
+				<p class="text-left LatoLight text-64" style="color:#0054A6;line-height:72x;">Grown by Nature.</p>
+				<p class="text-left LatoLight text-64" style="color:#0054A6;line-height:72px;">Served by Avenca.</p>
+				<p class="LatoLight p-t-10 text-24" style="max-width:900px;font-color:#333333;line-height:36px;">At Avenca, we are committed to the well-being of our communities and take great pride in serving safe, nutritious food - making people healthy and giving them the strength to achieve greater heights in life. All our products are naturally grown and preserved without resorting to any chemicals or additives.</p>
+				<br>
 			  </div>
 			</div>
 		</div>	
 		</section>	
 	<!--ABOUT PAGE: END : GROWN BY AVENCA- TAB 1-->
+	
 	<!--START: S2 FARMING -->
-	<section id="impact">
+	<section id="impact" style="padding-bottom:0px;">
+			
 			
 			<div class="row">
+				    
 				<div class="col-md-6">
-					<div class="text-center p-t-50 p-r-20">
-					<h2 class="p-b-40 heading-class">Technology Driven Farming</h3>	
-					<p class="text-center p-l-20">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor, vel interdum mi sapien ut justo. 
-						Nulla varius consequat magna, id molestie ipsum volutpat quis. Suspendisse consectetur fringilla luctus. 
-						Fusce id mi diam, non ornare orci. Pellentesque ipsum erat, facilisis ut venenatis eu, sodales vel dolor.
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor, vel interdum mi sapien ut justo. Nulla varius consequat." </span>
-					</p>
+					<div class="p-l-80"> 
+					    <!--i class="fa fa-minus p-t-100" ></i>
+						<i style="display:inline" class="fa-minus fa"> </i-->
+						<p style="padding-top:8%;color:#ff0030;">_______</p>
+					    <h2 class="LatoMed text-18">Delivering Ideas + Innovation </h2> 
+						<h2 class="text-left LatoLight p-t-20 text-24">Technology Driven Farming<br>making Indian agriculture great again</h2>	
+						<p class="text-left LatoLight p-t-20 text-16" style="max-width:90%;">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor, vel interdum mi sapien ut justo. 
+							Nulla varius consequat magna,
+							Fusce id mi diam, non ornare orci. Pellentesque ipsum erat, facilisis ut venenatis eu, sodales vel dolor.
+							</span>
+						</p>
+						
 					</div>
+					<div class="row p-l-70" style="padding-top:7%;max-width:95%;">
+				    <div class="text-center col-md-4">
+							<img src="images/donation.png" alt="heart" class="m-b-20">
+							<h3 class="text-12 LatoLight text-uppercase">Improving<br> Human Health</h3>
+						</div>
+
+						<div class="text-center col-md-4" style="display:inline;">
+							<img src="images/sprout.png" alt="climate" class="m-b-20">
+							<h3 class="text-12 LatoLight text-uppercase">Positively Impacts Climate Change</h3>
+						</div>
+
+						<div class="text-center col-md-4" style="display:inline;">
+							<img src="images/drop.png" alt="water" class="m-b-20">
+							<h3 class="text-12 LatoLight text-uppercase">Reduces Water<br> Usage by 40%</h3>				
+						</div>
+					</div>	
+			
 				</div>
-				<div class="col-md-6">
-					<image src="images/heroImage.jpg" style="width:100%;height:50%">								
-				</div>		
+				  
+				<div class="col-md-6" style="padding-left:0px;">
+					<image src="images/demo1.png" style="width:100%;height:100vh">								
+				</div>
+            </div>					
+            					
 	</section>
 	
-	<section>
-		<div class="container">
-		<h3 class="text-center p-b-40 heading-class">Transformative Impact</h3>
-			<div class="row">
-						<div class="col-md-4 text-center">
-							<img src="homepages/bakery/images/icons/2.jpg" alt="" class="m-b-20">
-							<h3>Saves 80% water</h3>
-							<p>Sed commodo suscipit neque et suscipit. Cras feugiat porttitor libero sed finibus. Morbi elit nulla, rutrum eu nulla eu, lacinia tincidunt ligula. </p>
-						</div>
-
-						<div class="col-md-4 text-center">
-							<img src="homepages/bakery/images/icons/3.jpg" alt="" class="m-b-20">
-							<h3>Protects Environment</h3>
-							<p>Sed commodo suscipit neque et suscipit. Cras feugiat porttitor libero sed finibus. Morbi elit nulla, rutrum eu nulla eu, lacinia tincidunt ligula. </p>
-						</div>
-
-						<div class="col-md-4 text-center">
-							<img src="homepages/bakery/images/icons/4.jpg" alt="" class="m-b-20">
-							<h3>Good return for farmer </h3>
-							<p>Sed commodo suscipit neque et suscipit. Cras feugiat porttitor libero sed finibus. Morbi elit nulla, rutrum eu nulla eu, lacinia tincidunt ligula. </p>
-						</div>
-			</div>
-		</div>	
-	</section>
-	
-	<!--START: S2 FARMING : TAB1-->
+	<!--END: S2 FARMING : TAB1-->
 	
     <!--START: PRODUCT CATALOG-->
-		<section id="catalog">
+		<section id="catalog" style="padding-top:0px;">
+			<div class="row">
+				
+				<div class="col-md-6" style="padding-right:0px;">
+					<image src="images/demo1.png" style="width:100%;height:100vh">								
+				</div>
+				    
+				<div class="col-md-6">
+					<div class="p-l-80"> 
+					    <!--i class="fa fa-minus p-t-100" ></i>
+						<i style="display:inline" class="fa-minus fa"> </i-->
+						<p style="padding-top:8%;color:#ff0030;">_______</p>
+					    <h2 class="LatoMed text-24 text-uppercase">Product Catalog </h2> 	
+						
+						<p class="text-left LatoLight p-t-10 text-16" style="max-width:90%;">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
+						</p>
+						
+					</div>
+					<div class="row p-l-70" style="padding-top:7%;max-width:95%;">
+						<div class="text-center col-md-3">
+								<img src="images/rice.png" alt="heart" class="m-b-20">
+						</div>
+						<div class="text-left col-md-3">
+							<p class="text-14 LatoMed text-uppercase p-b-0 m-b-0">RICE</p>	
+							<p class="text-12 LatoLight text-uppercase p-t-0 m-b-0">Sourced From AP</p>
+						</div>
+
+						<div class="text-center col-md-3">
+								<img src="images/bread.png" alt="heart" class="m-b-20">
+						</div>
+						<div class="text-left col-md-3"
+						<p class="text-12 LatoLight text-uppercase m-b-0">WHEAT</p>
+						<p class="text-12 LatoLight text-uppercase m-b-0">Sourced from AP</p>
+						</div>
+					</div>	
+					
+					<div class="row p-l-70" style="padding-top:7%;max-width:95%;">
+						<div class="text-center col-md-6">
+								<img src="images/potato.png" alt="heart" class="m-b-20">
+								<p class="text-12 LatoLight text-uppercase p-l-20" style="display:inline;">POTATO</p>
+						</div>
+
+						<div class="text-center col-md-6">
+							<img src="images/onion.png" alt="climate" class="m-b-20">
+							<p class="text-12 LatoLight text-uppercase p-l-20" style="display:inline;">ONIOIN</p>
+						</div>
+					</div>	
+						
 			
+				</div>
+            </div>		
 		</section>
 	<!--END: PRODUCT CATALOG-->
 	
@@ -237,21 +301,24 @@
 			
 				<div class="row">
 					<div class="col-md-6">
-					<image src="images/heroImage.jpg" style="width:100%;height:50%">
-					
-					
+						<image src="images/demo1.png" style="width:100%;height:100vh">								
+					</div>				
+				
+					<div class="col-md-6" style="padding-top:12%;">
+						<div class="p-l-80"> 
+						<image src="images/left-quote.png"></img>
+						<p class="text-left LatoLight p-t-20 text-18" style="max-width:90%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor, vel interdum mi sapien ut justo. Nulla varius consequat magna, Fusce id mi diam, non ornare orci. Pellentesque ipsum erat.
+						</p>
+						<p class="LatoMed text-16 m-b-0" style="padding-top:1%;">ARAVALA KONDAL RAO</p> 
+						<p class="LatoMed text-12 text-uppercase p-t-0 m-t-0" style="color:#ff0030;">proud avenca cutlivator, srikakulam</p> 
+						
+						
 					</div>
-					<div class="col-md-6">
-						<div class="text-center p-t-70 p-r-20">
-							<span class="lead">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor, vel interdum mi sapien ut justo. 
-							Nulla varius consequat magna, id molestie ipsum volutpat quis. Suspendisse consectetur fringilla luctus. 
-							Fusce id mi diam, non ornare orci. Pellentesque ipsum erat, facilisis ut venenatis eu, sodales vel dolor.
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor, vel interdum mi sapien ut justo. Nulla varius consequat." </span>
-						</div>
-					</div>
-					
-				</div>
 			
+				</div>
+				  
+				
+            </div>	
 		</section>
 	
 	<!--END : TESTIMONIALS -->
