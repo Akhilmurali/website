@@ -901,16 +901,16 @@ var INSPIRO = {};
                 if ($body.hasClass('device-lg') || $body.hasClass('device-md')) {
 
                     if (!$header.hasClass("header-no-sticky")) {
-                        $header.addClass('header-sticky');
+                        //$header.addClass('header-sticky');
                     }
                     if ($header.hasClass('header-navigation-light')) {
                         logo.find('img').attr('src', logoImg);
                     }
                 } else {
-                    $header.removeClass('header-sticky');
+                    //$header.removeClass('header-sticky');
                 }
             } else {
-                $header.removeClass('header-sticky');
+                //$header.removeClass('header-sticky');
             }
         }
     };

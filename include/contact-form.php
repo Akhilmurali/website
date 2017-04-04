@@ -8,7 +8,7 @@ require_once('php-mailer/PHPMailerAutoload.php');
 $mail = new PHPMailer();
 
 // Enter your email address:
-$to = "";
+$to = "akhilmec94@gmail.com";
 
 // Form Fields
 $name = $_POST["widget-contact-form-name"];
