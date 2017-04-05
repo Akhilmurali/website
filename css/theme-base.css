@@ -2661,7 +2661,7 @@ body.device-xs .col-md-3 .flickr-widget img {
     margin-bottom: 21px;
 }
 .copyright-content {
-    border-top: 1px solid #222;
+    border-top: 0px solid #222;
     min-height: 80px;
     padding: 30px 0;
 }
@@ -2738,9 +2738,8 @@ footer.background-grey .copyright-content {
 
 /*Footer dark version*/
 
-#footer.footer-dark {
-    background-color: #101010;
-    border-top: 1px solid #222;
+#footer.footer-dark {	
+    background-color: #696969!important;
 }
 #footer.footer-dark,
 #footer.footer-dark a {
@@ -2751,10 +2750,9 @@ footer.background-grey .copyright-content {
     color: #999 !important;
 }
 #footer.footer-dark .copyright-content {
-    border-top: 1px solid #222;
     min-height: 80px;
     padding: 30px 0;
-    background-color: #1a1a1a;
+    background-color: #ff0030;
 }
 
 /* ----------------------------------------------------------------
