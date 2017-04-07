@@ -257,19 +257,19 @@
 }
 
 @media (min-width:768px) {
-    .text-48 {
+    .text-20 {
         font-size: 16px!important;
     }
 }
 
 @media (min-width:992px) {
-    .text-48 {
+    .text-20 {
         font-size: 18px!important;
     }
 }
 
 @media (min-width:1200px) {
-    .text-48 {
+    .text-20 {
         font-size: 20px!important;
     }
 }
@@ -284,12 +284,12 @@
 }
 
 .text-48{
-	 font-size:34px!important;
+	 font-size:28px!important;
 }
 
 @media (min-width:768px) {
     .text-48 {
-        font-size: 36px!important;
+        font-size: 32px!important;
     }
 }
 
@@ -305,7 +305,9 @@
     }
 }
 
-
+.text-38{
+	font-size: 38px!important;
+}
 
 .LatoMed{
       font-family:'Lato',Sans!important;
@@ -379,6 +381,52 @@
     padding-left:7%!important;	
 }
 
+.grey-color{
+    color: #696f6f!important;	
+}
+
+
+.length-class{
+    margin-left: 10px;
+	margin-top: 40px!important;
+	display: inline!important;
+}
+
+@media (max-width : 350px){
+    .length-class{
+		margin-left: 0px;
+		display: block!important;
+		max-width: 130px;
+		margin-top: 0px!important;
+}
+}
+
+.padding-S2-Farming{
+	padding-top:7%!important;
+}	
+
+@media (min-width:768px) {
+    .padding-S2-Farming {
+        padding-top: 0px!important;
+    }
+}
+
+@media (min-width:992px) {
+    .padding-S2-Farming {
+       padding-top: 0px;important;
+    }
+}
+
+@media (min-width:1200px) {
+    .padding-S2-Farming {
+        padding-top: 0px!important;
+    }
+}
+
+.hover-color:hover
+				{
+				color: #006FA6;
+				}
 
 /* Icon-box-list */
 .group-icon-box-list-right-slider {

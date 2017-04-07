@@ -23,7 +23,7 @@ $antispam = $_POST['widget-contact-form-antispam'];
 
 if( $_SERVER['REQUEST_METHOD'] == 'POST' && isset($antispam) && $antispam == '') {
     
- if($email != '' && $message != '') {
+ if($email != '' && $phone != '') {
             
                 //If you don't receive the email, enable and configure these parameters below: 
      
