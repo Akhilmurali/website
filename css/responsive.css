@@ -265,7 +265,7 @@ Desktops (≥992px)
     #mainMenu ul > li > span,
     #mainMenu .mega-menu-title,
     #mainMenu .mega-menu-content a {
-        border-bottom: 1px solid #eee !important;
+        border-bottom: 0px solid #eee !important;
     }
     #header.header-dark:not(.header-navigation-light) #mainMenu ul > li > a,
     #header.header-dark:not(.header-navigation-light) #mainMenu ul > li > span,
